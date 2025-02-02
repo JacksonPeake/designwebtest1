@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JacksonPeake</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+    <div class="business-bar-wrapper">
+        <div class="business-bar">
+            <div class="business-bar--center">
+                <a href="mailto:email">
+                    <span>jacksonpeake@yahoo.co.uk</span>
+                </a>
+            </div>
+            <div class="business-bar--right">
+                <a href="tel:phonenumber">
+                    <span>(720)582-4519</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="index.html">
+                    <img src="img/logojp.png" alt="Jackson Peake Logo">
+                </a>
+            </div>
+            <ul class="navi" id="nav-list">
+                <li><a href="artwork.html">Artwork</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="photos.html">Photos</a></li>
+                <li><a href="designs.html">Designs</a></li>
+                <li><a href="music.html">Music</a></li>
+            </ul>
+            <div class="menu-icon" id="menu-icon">
+                <span>&#9776;</span> <!-- Hamburger Icon -->
+            </div>
+        </nav>
+    </header>
+
+    <main id="home">
+        <div class="mainP">    
+            <h1>Hi! I'm Jackson Peake. 
+            </h1>
+
+            <p>I'm a designer and artist specializing in all things graphic design who loves to help creatives and brands 
+                get more eyes on their work!
+            </p>
+
+            <p>
+                I have a love for drawing, coding, graphic design,  
+                product design, and making ideas come to life!
+            </p>
+
+            <p class="p2">
+                Proficient in:
+                <br>
+                Adobe Illustrator
+                <BR>
+                Adobe Indesign
+                <br>
+                Adobe Photoshop
+                <br>
+                Visual Studio Code
+            </p>
+        </div>
+    </main>
+
+    <div class="gradient-bottom"></div>
+
+    <script src="js/java.js"></script> 
+    <script>
+        const menuIcon = document.getElementById('menu-icon');
+        const navList = document.getElementById('nav-list');
+        
+        menuIcon.addEventListener('click', () => {
+            navList.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
+
