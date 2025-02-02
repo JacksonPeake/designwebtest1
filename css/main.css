@@ -313,41 +313,38 @@ p {
     }
 }
 
-/* ------small-media-devices------- */
-
 @media (max-width: 400px) {
     #home {
         background-size: 90%;
-        background-position: right 100%; /* Move the image higher up */
-        padding-top: 80px; /* Adjust padding to bring content up */
+        background-position: right 100%;
+        padding-top: 120px;
     }
 
     .mainP {
         margin-left: 0.5rem;
         margin-right: 0.5rem;
-        margin-top: 1rem;
+        margin-top: 2rem;
         font-size: 0.9rem;
-        gap: 10px; /* Reduce gap between text elements */
-        text-align: center; /* Center-align all text */
+        gap: 10px;
+        text-align: center;
     }
 
     h1 {
-        font-size: 24px; /* Smaller font size for h1 */
+        font-size: 24px;
     }
 
     p {
-        font-size: 14px; /* Smaller font size for paragraphs */
-        max-width: 80%; /* Narrower text for better readability */
-        margin: 0 auto; /* Center-align paragraphs */
+        font-size: 14px;
+        max-width: 80%;
+        margin: 0 auto;
     }
 
     .p2 {
-        text-align: center; /* Center-align the "Proficient in" text */
-        max-width: 100%; /* Allow it to take full width */
-        margin: 0 auto; /* Center-align */
+        text-align: center;
+        max-width: 100%;
+        margin: 0 auto;
     }
-
     .logo img {
-        width: 150px; /* Smaller logo for very small devices */
+        width: 150px;
     }
 }
