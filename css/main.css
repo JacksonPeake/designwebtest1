@@ -269,9 +269,9 @@ p {
     }
 
     #home {
-        background-size: 60%; /* Smaller size for tablet */
-        background-position: right 120%; /* Push image to the right and crop */
-        padding-top: 100px; /* Adjust padding for content */
+        background-size: 60%;
+        background-position: right 120%;
+        padding-top: 100px;
     }
 
     .mainP {
@@ -292,9 +292,9 @@ p {
 
 @media (max-width: 480px) {
     #home {
-        background-size: 80%; /* Smaller size for mobile */
-        background-position: right 150%; /* Push image further to the right and crop */
-        padding-top: 80px; /* Adjust padding for content */
+        background-size: 80%;
+        background-position: right 150%;
+        padding-top: 80px;
     }
 
     .mainP {
@@ -310,5 +310,34 @@ p {
 
     p {
         font-size: 16px;
+    }
+}
+
+/* Additional Media Query for Very Small Mobile Devices (e.g., 2556×1179) */
+@media (max-width: 400px) {
+    #home {
+        background-size: 90%;
+        background-position: right 180%;
+        padding-top: 120px; /* Push content further down */
+    }
+
+    .mainP {
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+        margin-top: 1rem;
+        font-size: 0.9rem;
+        gap: 10px; /* Reduce gap between text elements */
+    }
+
+    h1 {
+        font-size: 24px; /* Smaller font size for h1 */
+    }
+
+    p {
+        font-size: 14px; /* Smaller font size for paragraphs */
+    }
+
+    .logo img {
+        width: 150px; /* Smaller logo for very small devices */
     }
 }
